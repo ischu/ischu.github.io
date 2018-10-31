@@ -4,6 +4,11 @@ body {
 }
 .sectionTitle {
     margin-left: 20px;
+    margin-top: 20px;
     background: black;
     color: white;
+    padding: 5px, 10px;
+    display: inline;
+    border: solid black 10px;
+    border-radius: 25px;
 }
