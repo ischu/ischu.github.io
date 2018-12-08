@@ -1,14 +1,81 @@
 body {
-    background-color: #eee;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:#777 url(images/gravel.png);
+    color: #777 ;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
-.sectionTitle {
-    margin-left: 20px;
-    margin-top: 20px;
-    background: black;
-    color: white;
-    padding: 5px, 10px;
-    display: inline;
-    border: solid black 10px;
-    border-radius: 25px;
-}
+
+.tealWhite{
+    background-color: #4aaaa5; 
+    color: #fff;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    white-space: nowrap;
+  }
+
+  /* Navbar Stuff */
+
+  header {
+    background-color: #fff;
+    border-color: #ccc;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    color: #777 ;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  a:hover {
+    color: #4aaaa5;
+  }
+
+/* Main Content Stuff */
+
+  main{
+      border: solid 4px #ccc;
+      flex: 1 0 auto;
+  }
+
+  .contentHead {
+    color: #4aaaa5;
+  }
+
+  hr {
+    height: 4px;
+    border: none;
+    color: #ccc;
+    background-color: #ccc;
+  }
+
+  /* Index Stuff */
+
+  /* Contact Stuff */
+
+  /* .smInput {
+      width: 40%;
+  }
+
+  .lgInput {
+      width: 80%; */
+
+
+  /* Gallery Stuff */
+
+
+  /* Footer Stuff */
+
+  footer {
+    background-color: #666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    height: 10vh;
+    flex-shrink: 0;
+    margin-top: auto;
+  }
+  
+
